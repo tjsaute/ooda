@@ -291,7 +291,7 @@ Router.route('/', {
   template: 'home'
 });
 *****/
-
+console.log("about to enter home / root");
 Router.route('/', {
   name: 'home',
   template: 'home'
