@@ -296,7 +296,7 @@ Router.route('/', {
   name: 'home',
   template: 'home'
 });
-
+//Verify all routes.
 Router.route('/lists/:_id', {
   name: 'listPage',
   template: 'listPage',
